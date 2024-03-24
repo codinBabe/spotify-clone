@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+.subsectionwhite {
+  width: 60px;
+  height: 80px;
+}
+.herosection {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 300px;
+}
+@media (max-width: 760px) {
+  ul {
+    display: none;
+  }
+  .herosection {
+    flex-direction: column;
+  }
+}

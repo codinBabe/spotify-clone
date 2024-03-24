@@ -1,0 +1,12 @@
+.cards {
+  max-width: 150px;
+  background-color: #ffffff;
+}
+h3 {
+  margin-top: 20px;
+}
+p {
+  margin-top: 20px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
