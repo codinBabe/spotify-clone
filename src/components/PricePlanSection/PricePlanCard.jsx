@@ -147,7 +147,7 @@ function PricePlanCard() {
                         text="VIEW PLANS"
                         width="250px"
                     />
-                    <div className={styles.terms}>
+                    <div className={styles.terms2}>
                         <p className={styles.termsandconditions}>
                             <span> Terms and conditions apply.</span>1 month free not
                             available for users who have already tried Premium.

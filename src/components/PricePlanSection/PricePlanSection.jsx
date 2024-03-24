@@ -11,22 +11,22 @@ import PriceTerms from "../PriceTerms/PriceTerms";
 
 function PricePlanSection() {
     return (
-        <div className={styles.priceplan}>
+        <section className={styles.priceplan}>
             <h1 className={styles.pick}>Pick your Premium</h1>
             <p>Listen without limits on your phone, speaker, and other devices.</p>
             <div>
-                <img src={Lipi} />
-                <img src={Paytm} />
-                <img src={Visa} />
-                <img src={MasterCard} />
-                <img src={Amex} />
-                <img src={DinersClub} />
+                <img src={Lipi} alt='icon' />
+                <img src={Paytm} alt='icon' />
+                <img src={Visa} alt='icon' />
+                <img src={MasterCard} alt='icon' />
+                <img src={Amex} alt='icon' />
+                <img src={DinersClub} alt='icon' />
             </div>
             <div>
                 <PricePlanCard />
                 <PriceTerms/>
             </div>
-        </div>
+        </section>
     );
 }
 export default PricePlanSection;
